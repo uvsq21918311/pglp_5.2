@@ -9,7 +9,7 @@ import java.util.Properties;
 public class JdbcInitializer {
 	
 	private static final String userName = "Kamal";
-	private static final String password = "Mahout";
+	private static final String password = "root";
 	
 	public static String dburl = "jdbc:derby:bd;create=true";
 	

@@ -33,7 +33,7 @@ public enum JDBC {
 	
 	public static void main(String[] args) {
 		JdbcInitializer jinit = new JdbcInitializer();
-		// the 1st time, use jinit.createTables()
+		// pour la première fois on utilise jinit.createTables() pour creer les tables
 		jinit.createTables();
 		//jinit.dropCreateTables(); 
 		
